@@ -12,3 +12,5 @@ Returns the filesize of [filename] into variable [var]. If [var] is absent the r
 be placed into T 
 
 Thanks to SevenFFF for the original example of IDE_BASIC.
+
+Alwin Henseler for the bytes to ascii routine
