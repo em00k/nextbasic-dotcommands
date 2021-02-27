@@ -145,7 +145,7 @@ getreg:		; in register in a, out value in a
 
 
 getbank:	; returns free bank in a 
-			ld hl,$0001  	; H=banktype (ZX=0, 1=MMC); L=reason (1=allocate)
+			ld hl,$0001  								; H=banktype (ZX=0, 1=MMC); L=reason (1=allocate)
 			exx
 			ld c,7 										; RAM 7 required for most IDEDOS calls
 			ld de,$01bd 								; IDE_bank
