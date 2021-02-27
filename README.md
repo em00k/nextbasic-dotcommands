@@ -1,4 +1,4 @@
-# nextbasic-dotocmmands
+# nextbasic-dotcommands
  file utils for NextBasic
 
 .fsize filename [var]
